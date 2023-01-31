@@ -17,7 +17,7 @@ class SimpleReport:
                 validation_list.append(dicionario["data_de_validade"])
 
         data_de_fabricacao_antiga = min(fabricacao_list)
-        data_de_fabricacao_nova = max(validation_list)
+        data_de_fabricacao_nova = min(validation_list)
 
         for empresa in list:
             empresa_list.append(empresa["nome_da_empresa"])
