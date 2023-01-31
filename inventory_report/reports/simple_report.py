@@ -28,21 +28,21 @@ Data de validade mais próxima: {data_de_fabricacao_nova}
 Empresa com mais produtos: {empresa_max.most_common(1)[0][0]}"""
 
 
-empresa1 = SimpleReport.generate(
-    [
-        {
-            "id": 1,
-            "nome_do_produto": "CADEIRA",
-            "nome_da_empresa": "Forces of Nature",
-            "data_de_fabricacao": "2022-04-04",
-            "data_de_validade": "2023-02-09",
-            "numero_de_serie": "FR48",
-            "instrucoes_de_armazenamento": "Conservar em local fresco",
-        }
-    ]
-)
+# empresa1 = SimpleReport.generate(
+#     [
+#         {
+#             "id": 1,
+#             "nome_do_produto": "CADEIRA",
+#             "nome_da_empresa": "Forces of Nature",
+#             "data_de_fabricacao": "2022-04-04",
+#             "data_de_validade": "2023-02-09",
+#             "numero_de_serie": "FR48",
+#             "instrucoes_de_armazenamento": "Conservar em local fresco",
+#         }
+#     ]
+# )
 
-print(empresa1)
+# print(empresa1)
 
 # dia = datetime.today().strftime("%Y-%m-%d")
 # print(dia)
