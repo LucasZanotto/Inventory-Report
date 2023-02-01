@@ -3,6 +3,7 @@ import collections
 
 
 class SimpleReport:
+    @staticmethod
     def generate(list):
         list_list = list
         fabricacao_list = []

@@ -3,6 +3,7 @@ import collections
 
 
 class CompleteReport(SimpleReport):
+    @staticmethod
     def generate(list):
         relatorio_simples = SimpleReport.generate(list)
         list_relatos = list
