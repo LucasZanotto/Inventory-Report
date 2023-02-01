@@ -27,14 +27,25 @@ class Product:
         )
 
 
-objeto1 = Product(
-    1,
-    "secador",
-    "seca_Limpo",
-    "2020-10-10",
-    "2030-10-11",
-    "1LAJK32",
-    "guardar na caixa",
-)
+# objeto1 = Product(
+#     1,
+#     "secador",
+#     "seca_Limpo",
+#     "2020-10-10",
+#     "2030-10-11",
+#     "1LAJK32",
+#     "guardar na caixa",
+# )
 
-print(objeto1)
+# objeto2 = Product(
+#     1,
+#     "farinha",
+#     "Farinini",
+#     "01-05-2021",
+#     "02-06-2023",
+#     "1LAJK32",
+#     "ao abrigo de luz",
+# )
+
+# print(objeto1)
+# print(objeto2)
